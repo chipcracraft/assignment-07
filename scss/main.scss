@@ -65,7 +65,7 @@ body {
   .left-navbar, .right-navbar   {
     display: inline-block;
     width: 49%;
-    border: 1px solid red;
+
   }
   ul, li {
     display: inline-block;
@@ -85,10 +85,41 @@ body {
 }
 
 
+.header-logo {
+  width: 100%;
+  display: none;
+  position: relative;
+  background-color: #69A77C;
+  height: 25%;
+
+  .more-solrod {
+    position: absolute;
+    text-align: center;
+    right: 483px;
+    top: 13px;
+    transform: translate(50%,50%);
+    border: 2px solid #DAD9D9;
+    color: #65796A;
+    padding: 16px;
+    border-radius: 0%;
+    background-color: #69A77C;
+  }
+
+  @media screen and (min-width:992px) {
+    display: block;
+ }
+}
+
+
 
 .text-intro {
   padding: 10px 68px;
   background-color: white;
+
+
+  @media screen and (min-width:992px) {
+    margin: 50px;
+  }
 
   h1.text-intro {
     font-size: large;
